@@ -10,7 +10,7 @@ public class P2_KdvHesaplama {
 
          (Not : KDV tutarını 18% olarak alın)
          */
-        double tutar , kdvliTutar  , kdv = 0.18;
+        double tutar, kdvliTutar, kdv = 0.18;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Lütfen tutarı giriniz : ");

@@ -13,15 +13,14 @@ Taksimetre açılış ücreti 10 TL'dir.
 public class P4_Taksimetre {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double km,birimUcret=2.20,toplamTutar =10;
+        double km, birimUcret = 2.20, toplamTutar = 10;
         System.out.println("Kaç km yol gittiğini giriniz : ");
         km = input.nextDouble();
 
 
-        toplamTutar += km*birimUcret;
+        toplamTutar += km * birimUcret;
         toplamTutar = toplamTutar < 20 ? 20 : toplamTutar;
-        System.out.println("Odenecek tutar = "+toplamTutar);
-
+        System.out.println("Odenecek tutar = " + toplamTutar);
 
 
     }

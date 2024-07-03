@@ -3,13 +3,13 @@ package D1_javaDegiskenler_practise;
 import java.util.Scanner;
 
 /*
-* Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik
-* derslerinin sınav puanlarını kullanıcıdan alan ve ortalamalarını
-* hesaplayıp ekrana bastırılan programı yazın.
-*  */
+ * Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik
+ * derslerinin sınav puanlarını kullanıcıdan alan ve ortalamalarını
+ * hesaplayıp ekrana bastırılan programı yazın.
+ *  */
 public class P1_DinamikNotOrtalamasi {
     public static void main(String[] args) {
-        int mat,fiz,kim,tur,tar,muz,toplam;
+        int mat, fiz, kim, tur, tar, muz, toplam;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Lütfen Matematik notunu giriniz : ");
@@ -29,7 +29,7 @@ public class P1_DinamikNotOrtalamasi {
         toplam = mat + fiz + kim + tur + tar + muz;
         double sonuc = toplam / 6.0;
 
-        System.out.println("Ortalamanız = "+ sonuc);
+        System.out.println("Ortalamanız = " + sonuc);
 
         /*
          * Aynı program içerisinde koşullu ifadeler kullanılarak,
@@ -38,9 +38,8 @@ public class P1_DinamikNotOrtalamasi {
          * **/
 
         String mesaj;
-        mesaj = (sonuc >=60) ? "Sınıfı Geçti " : "Sınıfta kaldı";
+        mesaj = (sonuc >= 60) ? "Sınıfı Geçti " : "Sınıfta kaldı";
         System.out.println(mesaj);
-
 
 
     }

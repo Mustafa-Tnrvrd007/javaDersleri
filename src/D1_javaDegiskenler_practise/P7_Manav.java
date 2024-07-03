@@ -18,8 +18,8 @@ public class P7_Manav {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double armutKg = 2.14,elmaKg=3.67,domatesKg=1.11,muzKg=0.95,patlicanKg=5.00;
-        double armut , elama, domates,muz,patlican,toplamFiyat;
+        double armutKg = 2.14, elmaKg = 3.67, domatesKg = 1.11, muzKg = 0.95, patlicanKg = 5.00;
+        double armut, elama, domates, muz, patlican, toplamFiyat;
         System.out.println("Kaç kg armut aldınız ? (Giriniz)");
         armut = input.nextDouble();
         System.out.println("Kaç kg elma aldınız ? (Giriniz)");
@@ -31,8 +31,9 @@ public class P7_Manav {
         System.out.println("Kaç kg patlıcan aldınız ? (Giriniz)");
         patlican = input.nextDouble();
 
-        toplamFiyat=armut*armutKg + elama*elmaKg+domates*domatesKg+muz*muzKg+patlican*patlicanKg;
-        System.out.println("Toplaö fiyat "+toplamFiyat);
+        toplamFiyat = armut * armutKg + elama * elmaKg + domates * domatesKg
+                + muz * muzKg + patlican * patlicanKg;
+        System.out.println("Toplaö fiyat " + toplamFiyat);
 
 
     }

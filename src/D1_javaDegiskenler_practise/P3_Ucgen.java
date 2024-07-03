@@ -25,7 +25,7 @@ public class P3_Ucgen {
         */
 
 
-        int a,b,c; // üçgenin kenarları
+        int a, b, c; // üçgenin kenarları
         System.out.println("Birinci kenarı giriniz : ");
         a = input.nextInt();
         System.out.println("Ikinci kenarı giriniz : ");
@@ -38,10 +38,9 @@ public class P3_Ucgen {
         ve sonra üçgeninizin alanı S * (S-a) * (S-b)* (S-c)'nin kareköküne eşit olacak.
         İşte Heron Formülü bu kadar basit.
          */
-        double s = (a+b+c)/2 , alan;
-        alan = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        double s = (a + b + c) / 2, alan;
+        alan = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         System.out.println("Üçgenin alanı = " + alan);
-
 
 
     }
