@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P1_HesapMakinesi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P2_KullaniciGirisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P3_SinifGecme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P4_EtkinlikOnerme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P5_Siralama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P6_BurcRehberi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P7_UcakBileti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P8_CinZodyagi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P9_ArtikYilHesaplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P1_CiftSayiBulma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P2_TekSayilarinToplami.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P3_IkininKuvvetleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P4_FaktorielKombinasyon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P1_DinamikNotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P1_DinamikNotOrtalamasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P2_KdvHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P2_KdvHesaplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P3_Ucgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P3_Ucgen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P4_Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P4_Taksimetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P5_DaireninAlani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P5_DaireninAlani.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P6_VucutKitleEndeksi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P6_VucutKitleEndeksi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P7_Manav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P7_Manav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +39,17 @@
   "keyToString": {
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.P1_CiftSayiBulma.executor": "Run",
     "Application.P1_DinamikNotOrtalamasi.executor": "Run",
     "Application.P1_HesapMakinesi.executor": "Debug",
     "Application.P2_KdvHesaplama.executor": "Run",
     "Application.P2_KullaniciGirisi.executor": "Debug",
+    "Application.P2_TekSayilarinToplami.executor": "Run",
+    "Application.P3_IkininKuvvetleri.executor": "Run",
     "Application.P3_SinifGecme.executor": "Run",
     "Application.P3_Ucgen.executor": "Run",
     "Application.P4_EtkinlikOnerme.executor": "Run",
+    "Application.P4_FaktorielKombinasyon.executor": "Run",
     "Application.P4_Taksimetre.executor": "Run",
     "Application.P5_DaireninAlani.executor": "Run",
     "Application.P5_Siralama.executor": "Run",
@@ -74,13 +66,13 @@
     "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P9_ArtikYilHesaplama">
-    <configuration name="P5_Siralama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2_javaKosulYapilari.P5_Siralama" />
+  <component name="RunManager" selected="Application.P4_FaktorielKombinasyon">
+    <configuration name="P1_CiftSayiBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P1_CiftSayiBulma" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2_javaKosulYapilari.*" />
+          <option name="PATTERN" value="D3_javaDonguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P6_BurcRehberi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2_javaKosulYapilari.P6_BurcRehberi" />
+    <configuration name="P2_TekSayilarinToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P2_TekSayilarinToplami" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2_javaKosulYapilari.*" />
+          <option name="PATTERN" value="D3_javaDonguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P7_UcakBileti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2_javaKosulYapilari.P7_UcakBileti" />
+    <configuration name="P3_IkininKuvvetleri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P3_IkininKuvvetleri" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2_javaKosulYapilari.*" />
+          <option name="PATTERN" value="D3_javaDonguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P8_CinZodyagi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2_javaKosulYapilari.P8_CinZodyagi" />
+    <configuration name="P4_FaktorielKombinasyon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P4_FaktorielKombinasyon" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2_javaKosulYapilari.*" />
+          <option name="PATTERN" value="D3_javaDonguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P4_FaktorielKombinasyon" />
+        <item itemvalue="Application.P3_IkininKuvvetleri" />
+        <item itemvalue="Application.P2_TekSayilarinToplami" />
+        <item itemvalue="Application.P1_CiftSayiBulma" />
         <item itemvalue="Application.P9_ArtikYilHesaplama" />
-        <item itemvalue="Application.P8_CinZodyagi" />
-        <item itemvalue="Application.P7_UcakBileti" />
-        <item itemvalue="Application.P6_BurcRehberi" />
-        <item itemvalue="Application.P5_Siralama" />
       </list>
     </recent_temporary>
   </component>
