@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P1_CiftSayiBulma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P2_TekSayilarinToplami.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P3_IkininKuvvetleri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P4_FaktorielKombinasyon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P10_ElmasCizdirme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P11_AtmProjesi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P12_EbobEkok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P13_EnBuyukEnKucukSayiBulma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P14_MukemmelSayi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P15_TersUcgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P16_AsalSayilar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P17_Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P5_UssHesaplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P6_ArmstrongSayisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P7_BasamaklarToplami.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P8_HarmonikSeri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D3_javaDonguler/P9_UcgenCizme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +48,14 @@
   "keyToString": {
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.P10_ElmasCizdirme.executor": "Run",
+    "Application.P11_AtmProjesi.executor": "Debug",
+    "Application.P12_EbobEkok.executor": "Debug",
+    "Application.P13_EnBuyukEnKucukSayiBulma.executor": "Debug",
+    "Application.P14_MukemmelSayi.executor": "Run",
+    "Application.P15_TersUcgen.executor": "Run",
+    "Application.P16_AsalSayilar.executor": "Run",
+    "Application.P17_Fibonacci.executor": "Run",
     "Application.P1_CiftSayiBulma.executor": "Run",
     "Application.P1_DinamikNotOrtalamasi.executor": "Run",
     "Application.P1_HesapMakinesi.executor": "Debug",
@@ -53,12 +70,17 @@
     "Application.P4_Taksimetre.executor": "Run",
     "Application.P5_DaireninAlani.executor": "Run",
     "Application.P5_Siralama.executor": "Run",
+    "Application.P5_UssHesaplama.executor": "Debug",
+    "Application.P6_ArmstrongSayisi.executor": "Debug",
     "Application.P6_BurcRehberi.executor": "Debug",
     "Application.P6_VucutKitleEndeksi.executor": "Debug",
+    "Application.P7_BasamaklarToplami.executor": "Debug",
     "Application.P7_Manav.executor": "Debug",
     "Application.P7_UcakBileti.executor": "Run",
     "Application.P8_CinZodyagi.executor": "Run",
+    "Application.P8_HarmonikSeri.executor": "Debug",
     "Application.P9_ArtikYilHesaplama.executor": "Run",
+    "Application.P9_UcgenCizme.executor": "Run",
     "Application.problem1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -66,9 +88,9 @@
     "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P4_FaktorielKombinasyon">
-    <configuration name="P1_CiftSayiBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P1_CiftSayiBulma" />
+  <component name="RunManager" selected="Application.P17_Fibonacci">
+    <configuration name="P13_EnBuyukEnKucukSayiBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P13_EnBuyukEnKucukSayiBulma" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_TekSayilarinToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P2_TekSayilarinToplami" />
+    <configuration name="P14_MukemmelSayi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P14_MukemmelSayi" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3_IkininKuvvetleri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P3_IkininKuvvetleri" />
+    <configuration name="P15_TersUcgen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P15_TersUcgen" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4_FaktorielKombinasyon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P4_FaktorielKombinasyon" />
+    <configuration name="P16_AsalSayilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P16_AsalSayilar" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
@@ -119,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P9_ArtikYilHesaplama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D2_javaKosulYapilari.P9_ArtikYilHesaplama" />
+    <configuration name="P17_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3_javaDonguler.P17_Fibonacci" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D2_javaKosulYapilari.*" />
+          <option name="PATTERN" value="D3_javaDonguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P4_FaktorielKombinasyon" />
-        <item itemvalue="Application.P3_IkininKuvvetleri" />
-        <item itemvalue="Application.P2_TekSayilarinToplami" />
-        <item itemvalue="Application.P1_CiftSayiBulma" />
-        <item itemvalue="Application.P9_ArtikYilHesaplama" />
+        <item itemvalue="Application.P17_Fibonacci" />
+        <item itemvalue="Application.P16_AsalSayilar" />
+        <item itemvalue="Application.P15_TersUcgen" />
+        <item itemvalue="Application.P14_MukemmelSayi" />
+        <item itemvalue="Application.P13_EnBuyukEnKucukSayiBulma" />
       </list>
     </recent_temporary>
   </component>
