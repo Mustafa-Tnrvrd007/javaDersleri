@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P1_PalindromSayilar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P2_RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P3_HesapMakinesi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P4_RecursiveUsluSayi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P5_RecursiveAsal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D4_javaMetotlar/P6_DeseneGoreMetot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Ring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +42,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.D5_javaOOP.P2_BoksOyunu.Main.executor": "Run",
+    "Application.D5_javaOOP.P3_MaasHesaplayici.Main.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.P10_ElmasCizdirme.executor": "Run",
@@ -87,13 +92,13 @@
     "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P6_DeseneGoreMetot">
-    <configuration name="P2_RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4_javaMetotlar.P2_RecursiveFibonacci" />
+  <component name="RunManager" selected="Application.D5_javaOOP.P3_MaasHesaplayici.Main">
+    <configuration name="D5_javaOOP.P2_BoksOyunu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P2_BoksOyunu.Main" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4_javaMetotlar.*" />
+          <option name="PATTERN" value="D5_javaOOP.P2_BoksOyunu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3_HesapMakinesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4_javaMetotlar.P3_HesapMakinesi" />
+    <configuration name="D5_javaOOP.P3_MaasHesaplayici.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P3_MaasHesaplayici.Main" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4_javaMetotlar.*" />
+          <option name="PATTERN" value="D5_javaOOP.P3_MaasHesaplayici.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4_RecursiveUsluSayi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4_javaMetotlar.P4_RecursiveUsluSayi" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P1_OgrenciBilgiSistemi.Main" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4_javaMetotlar.*" />
+          <option name="PATTERN" value="D5_javaOOP.P1_OgrenciBilgiSistemi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D5_javaOOP.P3_MaasHesaplayici.Main" />
+        <item itemvalue="Application.D5_javaOOP.P2_BoksOyunu.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.P6_DeseneGoreMetot" />
         <item itemvalue="Application.P5_RecursiveAsal" />
-        <item itemvalue="Application.P4_RecursiveUsluSayi" />
-        <item itemvalue="Application.P3_HesapMakinesi" />
-        <item itemvalue="Application.P2_RecursiveFibonacci" />
       </list>
     </recent_temporary>
   </component>
