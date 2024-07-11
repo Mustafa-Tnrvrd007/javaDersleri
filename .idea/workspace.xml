@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P1_OrtalamaHesaplama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P2_DizideMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P3_EkranaHarfCizdirme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P4_TekrarEdenSayilariBulma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P5_ArraySorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P6_ArrayFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P7_MatrisTranspoz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7_javaUsefulTopics/P1_SayiTahminOyunu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D7_javaUsefulTopics/P2_PalindromikKelimle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D8_BitirmeProjesi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D8_BitirmeProjesi/MayinTarlasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D8_BitirmeProjesi/Oyun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
     "Application.D5_javaOOP.P2_BoksOyunu.Main.executor": "Run",
     "Application.D5_javaOOP.P3_MaasHesaplayici.Main.executor": "Run",
     "Application.HelloWorld.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.P10_ElmasCizdirme.executor": "Run",
     "Application.P11_AtmProjesi.executor": "Debug",
     "Application.P12_EbobEkok.executor": "Debug",
@@ -57,9 +55,11 @@
     "Application.P1_HesapMakinesi.executor": "Debug",
     "Application.P1_OrtalamaHesaplama.executor": "Run",
     "Application.P1_PalindromSayilar.executor": "Run",
+    "Application.P1_SayiTahminOyunu.executor": "Debug",
     "Application.P2_DizideMaxMin.executor": "Run",
     "Application.P2_KdvHesaplama.executor": "Run",
     "Application.P2_KullaniciGirisi.executor": "Debug",
+    "Application.P2_PalindromikKelimle.executor": "Run",
     "Application.P2_RecursiveFibonacci.executor": "Run",
     "Application.P2_TekSayilarinToplami.executor": "Run",
     "Application.P3_EkranaHarfCizdirme.executor": "Run",
@@ -90,6 +90,7 @@
     "Application.P8_HarmonikSeri.executor": "Debug",
     "Application.P9_ArtikYilHesaplama.executor": "Run",
     "Application.P9_UcgenCizme.executor": "Run",
+    "Application.SayiTahminOyunu.executor": "Run",
     "Application.problem1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -97,13 +98,13 @@
     "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P7_MatrisTranspoz">
-    <configuration name="P3_EkranaHarfCizdirme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P3_EkranaHarfCizdirme" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D8_BitirmeProjesi.Main" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6_javaArrays.*" />
+          <option name="PATTERN" value="D8_BitirmeProjesi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4_TekrarEdenSayilariBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P4_TekrarEdenSayilariBulma" />
+    <configuration name="P1_SayiTahminOyunu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7_javaUsefulTopics.P1_SayiTahminOyunu" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6_javaArrays.*" />
+          <option name="PATTERN" value="D7_javaUsefulTopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5_ArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P5_ArraySorting" />
+    <configuration name="P2_PalindromikKelimle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D7_javaUsefulTopics.P2_PalindromikKelimle" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D6_javaArrays.*" />
+          <option name="PATTERN" value="D7_javaUsefulTopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.P2_PalindromikKelimle" />
+        <item itemvalue="Application.P1_SayiTahminOyunu" />
         <item itemvalue="Application.P7_MatrisTranspoz" />
         <item itemvalue="Application.P6_ArrayFrequency" />
-        <item itemvalue="Application.P5_ArraySorting" />
-        <item itemvalue="Application.P4_TekrarEdenSayilariBulma" />
-        <item itemvalue="Application.P3_EkranaHarfCizdirme" />
       </list>
     </recent_temporary>
   </component>
