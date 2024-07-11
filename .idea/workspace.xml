@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Ring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P1_OrtalamaHesaplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P2_DizideMaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P3_EkranaHarfCizdirme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P4_TekrarEdenSayilariBulma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P5_ArraySorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P6_ArrayFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D6_javaArrays/P7_MatrisTranspoz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +55,14 @@
     "Application.P1_CiftSayiBulma.executor": "Run",
     "Application.P1_DinamikNotOrtalamasi.executor": "Run",
     "Application.P1_HesapMakinesi.executor": "Debug",
+    "Application.P1_OrtalamaHesaplama.executor": "Run",
     "Application.P1_PalindromSayilar.executor": "Run",
+    "Application.P2_DizideMaxMin.executor": "Run",
     "Application.P2_KdvHesaplama.executor": "Run",
     "Application.P2_KullaniciGirisi.executor": "Debug",
     "Application.P2_RecursiveFibonacci.executor": "Run",
     "Application.P2_TekSayilarinToplami.executor": "Run",
+    "Application.P3_EkranaHarfCizdirme.executor": "Run",
     "Application.P3_HesapMakinesi.executor": "Run",
     "Application.P3_IkininKuvvetleri.executor": "Run",
     "Application.P3_SinifGecme.executor": "Run",
@@ -70,16 +71,20 @@
     "Application.P4_FaktorielKombinasyon.executor": "Run",
     "Application.P4_RecursiveUsluSayi.executor": "Debug",
     "Application.P4_Taksimetre.executor": "Run",
+    "Application.P4_TekrarEdenSayilariBulma.executor": "Run",
+    "Application.P5_ArraySorting.executor": "Run",
     "Application.P5_DaireninAlani.executor": "Run",
     "Application.P5_RecursiveAsal.executor": "Run",
     "Application.P5_Siralama.executor": "Run",
     "Application.P5_UssHesaplama.executor": "Debug",
     "Application.P6_ArmstrongSayisi.executor": "Debug",
+    "Application.P6_ArrayFrequency.executor": "Run",
     "Application.P6_BurcRehberi.executor": "Debug",
     "Application.P6_DeseneGoreMetot.executor": "Run",
     "Application.P6_VucutKitleEndeksi.executor": "Debug",
     "Application.P7_BasamaklarToplami.executor": "Debug",
     "Application.P7_Manav.executor": "Debug",
+    "Application.P7_MatrisTranspoz.executor": "Run",
     "Application.P7_UcakBileti.executor": "Run",
     "Application.P8_CinZodyagi.executor": "Run",
     "Application.P8_HarmonikSeri.executor": "Debug",
@@ -92,13 +97,13 @@
     "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D5_javaOOP.P3_MaasHesaplayici.Main">
-    <configuration name="D5_javaOOP.P2_BoksOyunu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P2_BoksOyunu.Main" />
+  <component name="RunManager" selected="Application.P7_MatrisTranspoz">
+    <configuration name="P3_EkranaHarfCizdirme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P3_EkranaHarfCizdirme" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D5_javaOOP.P2_BoksOyunu.*" />
+          <option name="PATTERN" value="D6_javaArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D5_javaOOP.P3_MaasHesaplayici.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P3_MaasHesaplayici.Main" />
+    <configuration name="P4_TekrarEdenSayilariBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P4_TekrarEdenSayilariBulma" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D5_javaOOP.P3_MaasHesaplayici.*" />
+          <option name="PATTERN" value="D6_javaArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D5_javaOOP.P1_OgrenciBilgiSistemi.Main" />
+    <configuration name="P5_ArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P5_ArraySorting" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D5_javaOOP.P1_OgrenciBilgiSistemi.*" />
+          <option name="PATTERN" value="D6_javaArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5_RecursiveAsal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4_javaMetotlar.P5_RecursiveAsal" />
+    <configuration name="P6_ArrayFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P6_ArrayFrequency" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4_javaMetotlar.*" />
+          <option name="PATTERN" value="D6_javaArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P6_DeseneGoreMetot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D4_javaMetotlar.P6_DeseneGoreMetot" />
+    <configuration name="P7_MatrisTranspoz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D6_javaArrays.P7_MatrisTranspoz" />
       <module name="javaDersleri" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="D4_javaMetotlar.*" />
+          <option name="PATTERN" value="D6_javaArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D5_javaOOP.P3_MaasHesaplayici.Main" />
-        <item itemvalue="Application.D5_javaOOP.P2_BoksOyunu.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.P6_DeseneGoreMetot" />
-        <item itemvalue="Application.P5_RecursiveAsal" />
+        <item itemvalue="Application.P7_MatrisTranspoz" />
+        <item itemvalue="Application.P6_ArrayFrequency" />
+        <item itemvalue="Application.P5_ArraySorting" />
+        <item itemvalue="Application.P4_TekrarEdenSayilariBulma" />
+        <item itemvalue="Application.P3_EkranaHarfCizdirme" />
       </list>
     </recent_temporary>
   </component>
