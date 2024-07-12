@@ -8,6 +8,9 @@ public class MayinTarlasi {
     int stun;
     char[][] tarla;
     int[][] mayin;
+    int mayinsizkutuSayisi;
+    int[][] girilenKonumlar;
+    int acilanKutucukSayisi;
 
 
     MayinTarlasi(int satir, int stun) {
@@ -15,8 +18,24 @@ public class MayinTarlasi {
         this.stun = stun;
         this.tarla = new char[satir][stun];
         this.mayin = new int[(satir * stun) / 4][2];
-        rastgeleMayinAtama(this.mayin);// mayinlari rast gele atadik
 
+        matrisSilme(mayin);
+
+        rastgeleMayinAtama(this.satir, this.stun, this.mayin);// mayinlari rast gele atadik
+
+        this.mayinsizkutuSayisi = (this.satir * this.stun) - (this.satir * this.stun) / 4;
+        this.girilenKonumlar = new int[mayinsizkutuSayisi][2];
+        matrisSilme(girilenKonumlar);
+
+
+    }
+
+    public void matrisSilme(int[][] matris) {
+        for (int i = 0; i < matris.length; i++) { // matrise -1 atadik
+            for (int j = 0; j < matris[i].length; j++) {
+                matris[i][j] = -1;
+            }
+        }
     }
 
     public void degerAta() {
@@ -38,24 +57,26 @@ public class MayinTarlasi {
         }
     }
 
-    public void rastgeleMayinAtama(int[][] matris) {
+    public void rastgeleMayinAtama(int satir, int stun, int[][] matris) {
         // mayın matrisinin satir sayisi mayin sayisini belirler
         // random sayisi matrisin satir ve stun degerlerini geçmemeli
-
         Random random = new Random(); // bunun için Random kütüphanesi dahil ettim
-/*
-        for (int i = 0; i < mayin.length; i++) {
-            matris[i][0] = random.nextInt(this.satir);
-            matris[i][1] = random.nextInt(this.stun);
-        }
-*/
-        int i = 0;
-        while (i < matris.length) {
-            if (!isFind(random.nextInt(this.satir), random.nextInt(this.stun))) {
-                matris[i][0] = random.nextInt(this.satir);
-                matris[i][1] = random.nextInt(this.stun);
-                i++;
+        int index = 0, row, column;
+
+        while (index < matris.length) {
+
+            row = random.nextInt(satir);
+            column = random.nextInt(stun);
+            if (isFind(row, column, this.mayin)) {
+                continue;
+            } else {
+
+                this.mayin[index][0] = row;
+                this.mayin[index][1] = column;
+
             }
+            index++;
+
         }
 
 
@@ -66,7 +87,7 @@ public class MayinTarlasi {
         for (int i = 0; i < this.satir; i++) {
             for (int j = 0; j < this.stun; j++) {
 
-                if (isFind(i, j)) {
+                if (isFind(i, j, this.mayin)) {
                     System.out.print("\t" + "*");
 
                 } else {
@@ -80,78 +101,62 @@ public class MayinTarlasi {
         }
     }
 
-    public boolean isFind(int row, int column) { // girilen sayilar matris de var mi
-        for (int i = 0; i < mayin.length; i++) {
-            for (int j = 0; j < mayin[i].length; j++) {
-                if (row == mayin[i][0] && column == mayin[i][1]) {
-                    return true;
-                }
-            }
 
-        }
-
-        return false;
-    }
-
-    public boolean girilenKonum(int row, int column, int[][] matris) {
+    public boolean isFind(int row, int column, int[][] matris) {
         // girilen sayilar matris de var mi
         for (int i = 0; i < matris.length; i++) {
-            for (int j = 0; j < matris[i].length; j++) {
-                if (row == matris[i][0] && column == matris[i][1]) {
-                    return true;
-                }
+            if (row == matris[i][0] && column == matris[i][1]) {
+                return true;
             }
 
         }
 
         return false;
+
+    }
+
+    public void acilanKutucuk(int row, int column, int index) {
+
+        /// kullanicidan alinan konumlari matrise atadik
+        girilenKonumlar[index][0] = row;
+        girilenKonumlar[index][1] = column;
+
+        this.acilanKutucukSayisi++;
+
     }
 
     public void oyun() {
         Scanner input = new Scanner(System.in);
+        int row, column, komsu, konumIndex = 0;
+        this.acilanKutucukSayisi = 0;
 
-        int row, column, komsu, acilanKutucuk = 0, mayinsizkutuSayisi, konumIndex = 0;
-        boolean findBomb = false;
-        mayinsizkutuSayisi = (this.satir * this.stun) - (this.satir * this.stun) / 4;
-        int[][] girilenKonumlar = new int[mayinsizkutuSayisi][2];
-        for (int i = 0; i < girilenKonumlar.length; i++) {
-            for (int j = 0; j < girilenKonumlar[i].length; j++) {
-                girilenKonumlar[i][j] = -1;
-            }
-        }
-        while (!findBomb && acilanKutucuk < mayinsizkutuSayisi) {
+        while (true) {
             System.out.println("Satir index degeri girin :");
             row = input.nextInt();
             System.out.println("Stun index degeri girin :");
             column = input.nextInt();
+
             if ((row >= this.satir || row < 0) || (column >= this.stun || column < 0)) {
                 System.out.println("Hatali girdi tekrar deneyin");
                 continue;
-            }/////////////// girilen indexler bidaha girilirse uyarı vermeli
-
-            /// daha önce girilen indexler bi matrisde tutulabilir
-            else if (girilenKonum(row, column, girilenKonumlar)) {
+            } else if (isFind(row, column, girilenKonumlar)) {
                 System.out.println("Bu konumu daha once girdiniz baska bi konum girin :");
                 continue;
-
-            }
-            girilenKonumlar[konumIndex][0] = row;
-            girilenKonumlar[konumIndex][1] = column;
-            konumIndex++;
-
-            if (isFind(row, column)) {
-                findBomb = true;
+            } else if (isFind(row, column, this.mayin)) {
                 System.out.println("Game Over!!!!!!!");
+                break;
             } else {
-                // asagidaki yontemle int degeri char ddegiskene atadik
+                acilanKutucuk(row, column, konumIndex);
+                konumIndex++;
                 komsu = komsuBulma(row, column);
-                tarla[row][column] = (char) (komsu + '0');
+
+                // asagidaki yontemle int degeri char degiskene atadik
+                this.tarla[row][column] = (char) (komsu + '0');
                 tarlaYazdir();
                 hileliTarlayiYazdir();
-                acilanKutucuk++;
-            }
-            if (acilanKutucuk >= mayinsizkutuSayisi) {
 
+            }
+            if (this.acilanKutucukSayisi >= mayinsizkutuSayisi) {
                 System.out.println("Tebrikler Kazandiniz :) ");
                 break;
             }
@@ -168,7 +173,7 @@ public class MayinTarlasi {
         for (int i = row - 1; i <= row + 1; i++) {
             for (int j = column - 1; j <= column + 1; j++) {
                 if ((i >= 0 && j >= 0) && (i < this.satir && j < this.stun)) {
-                    if (isFind(i, j)) {
+                    if (isFind(i, j, this.mayin)) {
                         System.out.println("Komsuda mayin var ");
                         mayinSayisi++;
                     }
