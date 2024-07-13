@@ -29,3 +29,5 @@ bin/
 .DS_Store
 
 ### intelij ###
+.idea/
+.idea/workspace.xml
