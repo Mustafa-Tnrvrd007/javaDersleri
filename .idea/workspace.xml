@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D8_BitirmeProjesi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D8_BitirmeProjesi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D8_BitirmeProjesi/MayinTarlasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D8_BitirmeProjesi/MayinTarlasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D8_BitirmeProjesi/Oyun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,68 +31,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.D5_javaOOP.P2_BoksOyunu.Main.executor": "Run",
-    "Application.D5_javaOOP.P3_MaasHesaplayici.Main.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.P10_ElmasCizdirme.executor": "Run",
-    "Application.P11_AtmProjesi.executor": "Debug",
-    "Application.P12_EbobEkok.executor": "Debug",
-    "Application.P13_EnBuyukEnKucukSayiBulma.executor": "Debug",
-    "Application.P14_MukemmelSayi.executor": "Run",
-    "Application.P15_TersUcgen.executor": "Run",
-    "Application.P16_AsalSayilar.executor": "Run",
-    "Application.P17_Fibonacci.executor": "Run",
-    "Application.P1_CiftSayiBulma.executor": "Run",
-    "Application.P1_DinamikNotOrtalamasi.executor": "Run",
-    "Application.P1_HesapMakinesi.executor": "Debug",
-    "Application.P1_OrtalamaHesaplama.executor": "Run",
-    "Application.P1_PalindromSayilar.executor": "Run",
-    "Application.P1_SayiTahminOyunu.executor": "Debug",
-    "Application.P2_DizideMaxMin.executor": "Run",
-    "Application.P2_KdvHesaplama.executor": "Run",
-    "Application.P2_KullaniciGirisi.executor": "Debug",
-    "Application.P2_PalindromikKelimle.executor": "Run",
-    "Application.P2_RecursiveFibonacci.executor": "Run",
-    "Application.P2_TekSayilarinToplami.executor": "Run",
-    "Application.P3_EkranaHarfCizdirme.executor": "Run",
-    "Application.P3_HesapMakinesi.executor": "Run",
-    "Application.P3_IkininKuvvetleri.executor": "Run",
-    "Application.P3_SinifGecme.executor": "Run",
-    "Application.P3_Ucgen.executor": "Run",
-    "Application.P4_EtkinlikOnerme.executor": "Run",
-    "Application.P4_FaktorielKombinasyon.executor": "Run",
-    "Application.P4_RecursiveUsluSayi.executor": "Debug",
-    "Application.P4_Taksimetre.executor": "Run",
-    "Application.P4_TekrarEdenSayilariBulma.executor": "Run",
-    "Application.P5_ArraySorting.executor": "Run",
-    "Application.P5_DaireninAlani.executor": "Run",
-    "Application.P5_RecursiveAsal.executor": "Run",
-    "Application.P5_Siralama.executor": "Run",
-    "Application.P5_UssHesaplama.executor": "Debug",
-    "Application.P6_ArmstrongSayisi.executor": "Debug",
-    "Application.P6_ArrayFrequency.executor": "Run",
-    "Application.P6_BurcRehberi.executor": "Debug",
-    "Application.P6_DeseneGoreMetot.executor": "Run",
-    "Application.P6_VucutKitleEndeksi.executor": "Debug",
-    "Application.P7_BasamaklarToplami.executor": "Debug",
-    "Application.P7_Manav.executor": "Debug",
-    "Application.P7_MatrisTranspoz.executor": "Run",
-    "Application.P7_UcakBileti.executor": "Run",
-    "Application.P8_CinZodyagi.executor": "Run",
-    "Application.P8_HarmonikSeri.executor": "Debug",
-    "Application.P9_ArtikYilHesaplama.executor": "Run",
-    "Application.P9_UcgenCizme.executor": "Run",
-    "Application.SayiTahminOyunu.executor": "Run",
-    "Application.problem1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/javademos/javaDersleri/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.D5_javaOOP.P2_BoksOyunu.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D5_javaOOP.P3_MaasHesaplayici.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P10_ElmasCizdirme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P11_AtmProjesi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P12_EbobEkok.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P13_EnBuyukEnKucukSayiBulma.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P14_MukemmelSayi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P15_TersUcgen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P16_AsalSayilar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P17_Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P1_CiftSayiBulma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P1_DinamikNotOrtalamasi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P1_HesapMakinesi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P1_OrtalamaHesaplama.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P1_PalindromSayilar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P1_SayiTahminOyunu.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P2_DizideMaxMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P2_KdvHesaplama.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P2_KullaniciGirisi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P2_PalindromikKelimle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P2_RecursiveFibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P2_TekSayilarinToplami.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P3_EkranaHarfCizdirme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P3_HesapMakinesi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P3_IkininKuvvetleri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P3_SinifGecme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P3_Ucgen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P4_EtkinlikOnerme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P4_FaktorielKombinasyon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P4_RecursiveUsluSayi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P4_Taksimetre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P4_TekrarEdenSayilariBulma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P5_ArraySorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P5_DaireninAlani.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P5_RecursiveAsal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P5_Siralama.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P5_UssHesaplama.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P6_ArmstrongSayisi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P6_ArrayFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P6_BurcRehberi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P6_DeseneGoreMetot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P6_VucutKitleEndeksi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P7_BasamaklarToplami.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P7_Manav.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P7_MatrisTranspoz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P7_UcakBileti.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P8_CinZodyagi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P8_HarmonikSeri.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P9_ArtikYilHesaplama.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P9_UcgenCizme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SayiTahminOyunu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.problem1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/javademos/javaDersleri/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D8_BitirmeProjesi.Main" />
