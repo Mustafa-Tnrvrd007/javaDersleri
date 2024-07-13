@@ -5,68 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22a5d9b-a94d-4c43-8454-5dfa186f8628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dx_Algoritmalar/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dx_Algoritmalar/MergeSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dx_Algoritmalar/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P1_DinamikNotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P1_DinamikNotOrtalamasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P2_KdvHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P2_KdvHesaplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P3_Ucgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P3_Ucgen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P4_Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P4_Taksimetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P5_DaireninAlani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P5_DaireninAlani.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P6_VucutKitleEndeksi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P6_VucutKitleEndeksi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1_javaDegiskenler_practise/P7_Manav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1_Degiskenler_practise/P7_Manav.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P1_HesapMakinesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P1_HesapMakinesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P2_KullaniciGirisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P2_KullaniciGirisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P3_SinifGecme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P3_SinifGecme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P4_EtkinlikOnerme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P4_EtkinlikOnerme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P5_Siralama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P5_Siralama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P6_BurcRehberi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P6_BurcRehberi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P7_UcakBileti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P7_UcakBileti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P8_CinZodyagi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P8_CinZodyagi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D2_javaKosulYapilari/P9_ArtikYilHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2_KosulYapilari/P9_ArtikYilHesaplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P10_ElmasCizdirme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P10_ElmasCizdirme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P11_AtmProjesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P11_AtmProjesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P12_EbobEkok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P12_EbobEkok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P13_EnBuyukEnKucukSayiBulma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P13_EnBuyukEnKucukSayiBulma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P14_MukemmelSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P14_MukemmelSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P15_TersUcgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P15_TersUcgen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P16_AsalSayilar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P16_AsalSayilar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P17_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P17_Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P1_CiftSayiBulma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P1_CiftSayiBulma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P2_TekSayilarinToplami.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P2_TekSayilarinToplami.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P3_IkininKuvvetleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P3_IkininKuvvetleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P4_FaktorielKombinasyon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P4_FaktorielKombinasyon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P5_UssHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P5_UssHesaplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P6_ArmstrongSayisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P6_ArmstrongSayisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P7_BasamaklarToplami.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P7_BasamaklarToplami.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P8_HarmonikSeri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P8_HarmonikSeri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3_javaDonguler/P9_UcgenCizme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3_Donguler/P9_UcgenCizme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P1_PalindromSayilar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P1_PalindromSayilar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P2_RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P2_RecursiveFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P3_HesapMakinesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P3_HesapMakinesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P4_RecursiveUsluSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P4_RecursiveUsluSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P5_RecursiveAsal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P5_RecursiveAsal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D4_javaMetotlar/P6_DeseneGoreMetot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D4_Metotlar/P6_DeseneGoreMetot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P1_OgrenciBilgiSistemi/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P1_OgrenciBilgiSistemi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P1_OgrenciBilgiSistemi/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P1_OgrenciBilgiSistemi/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P1_OgrenciBilgiSistemi/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P2_BoksOyunu/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P2_BoksOyunu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P2_BoksOyunu/Ring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P2_BoksOyunu/Ring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P3_MaasHesaplayici/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D5_javaOOP/P3_MaasHesaplayici/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D5_OOP/P3_MaasHesaplayici/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P1_OrtalamaHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P1_OrtalamaHesaplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P2_DizideMaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P2_DizideMaxMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P3_EkranaHarfCizdirme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P3_EkranaHarfCizdirme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P4_TekrarEdenSayilariBulma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P4_TekrarEdenSayilariBulma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P5_ArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P5_ArraySorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P6_ArrayFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P6_ArrayFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D6_javaArrays/P7_MatrisTranspoz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D6_Arrays/P7_MatrisTranspoz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D7_javaUsefulTopics/P1_SayiTahminOyunu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D7_UsefulTopics/P1_SayiTahminOyunu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D7_javaUsefulTopics/P2_PalindromikKelimle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D7_UsefulTopics/P2_PalindromikKelimle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
