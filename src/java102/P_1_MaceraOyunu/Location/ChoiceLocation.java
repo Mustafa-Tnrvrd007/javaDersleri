@@ -15,7 +15,7 @@ public class ChoiceLocation {
     public Location river;
     public Location forest;
     public Location cave;
-    //public Location mine;
+    public Location mine;
 
 
 
@@ -28,7 +28,7 @@ public class ChoiceLocation {
         river = new River(getPlayer(), "Nehir");
         forest = new Forest(getPlayer(), "Orman");
         cave = new Cave(getPlayer(), "Magra");
-        //mine = new Mine(getPlayer(),"Maden Ocagi");
+        mine = new Mine(getPlayer(),"Maden Ocagi");
 
 
     }
@@ -44,7 +44,7 @@ public class ChoiceLocation {
             System.out.println("3 - " + river.getLocationName() + "\t (odul : su) ");
             System.out.println("4 - " + forest.getLocationName() + "\t (odul : odun) ");
             System.out.println("5 - " + cave.getLocationName() + "\t (odul : yemek) ");
-            //System.out.println("6 - " + mine.getLocationName() + "\t (rasstgele hediye) ");
+            System.out.println("6 - " + mine.getLocationName() + "\t (rasstgele hediye) ");
 
             selectLocation();
 
@@ -109,9 +109,9 @@ public class ChoiceLocation {
                 setLocation(cave);
 
                 break;
-//            case 6:
-//                setLocation(mine);
-//                break;
+            case 6:
+                setLocation(mine);
+                break;
             default:
 //                    System.out.println("Bir seyler ters gitti");
                 break;
@@ -157,7 +157,7 @@ public class ChoiceLocation {
     }
 
     public void setChoice(int choice) {
-        if (choice >= 0 && choice < 6) {
+        if (choice >= 0 && choice < 7) {
             this.choice = choice;
         } else {
             System.out.println("Hatali Konum Sectiniz \nTekrar konum girin");

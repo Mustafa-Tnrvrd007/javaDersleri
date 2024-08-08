@@ -2,6 +2,7 @@ package java102.P_1_MaceraOyunu.Location;
 
 import java102.P_1_MaceraOyunu.ItemsForSale.Armor;
 import java102.P_1_MaceraOyunu.ItemsForSale.Items;
+import java102.P_1_MaceraOyunu.ItemsForSale.SalesItems;
 import java102.P_1_MaceraOyunu.ItemsForSale.Weapon;
 import java102.P_1_MaceraOyunu.Player;
 
@@ -9,16 +10,9 @@ import static java102.P_1_MaceraOyunu.Game.input;
 
 public class ToolStore extends Location {
 
-    Weapon tabanca = new Weapon(1, "Tabanca", 2, 25);
-    Weapon kilic = new Weapon(2, "Kilic", 3, 35);
-    Weapon tufek = new Weapon(3, "Tufek", 7, 45);
+//    Weapon[] weaponry = {tabanca, kilic, tufek};
 
-    Weapon[] weaponry = {tabanca, kilic, tufek};
-
-    Armor hafif = new Armor(1, "Hafif Zirh", 1, 15);
-    Armor orta = new Armor(2, "Orta Zirh", 3, 25);
-    Armor agir = new Armor(3, "Agir Zirh", 5, 35);
-    Armor[] armors = {hafif, orta, agir};
+//    Armor[] armors = {hafif, orta, agir};
 
     ToolStore(Player player, String locationName) {
         super(player, locationName);
@@ -35,6 +29,7 @@ public class ToolStore extends Location {
 
     private void menu() {
         do {
+
             System.out.println("Silah mi zirh mi alacaginizi secin \t Bakiye : " +
                     super.getPlayer().getCharacter().getMoney() );
             System.out.println("1- Silah \n2- Zirh \nCikmak icin 0 girin ");
@@ -42,12 +37,15 @@ public class ToolStore extends Location {
             int choice = input.nextInt();
 
             if (choice == 1) {
-                selectItemMenu(weaponry); //// silah menusu gosterimi
-                choiceItem(input.nextInt() ,weaponry); //// silah secimi
-
+                //selectItemMenu(weaponry); //// silah menusu gosterimi
+                selectItemMenu(SalesItems.weaponry);
+                //choiceItem(input.nextInt() ,weaponry); //// silah secimi
+                choiceItem(input.nextInt(),SalesItems.weaponry);
             } else if (choice == 2) {
-                selectItemMenu(armors); //// zirh menusu
-                choiceItem(input.nextInt() ,armors); //// zirh secimi
+                //selectItemMenu(armors); //// zirh menusu
+                selectItemMenu(SalesItems.armors);
+                //choiceItem(input.nextInt() ,armors); //// zirh secimi
+                choiceItem(input.nextInt(),SalesItems.armors);
 
             } else if (choice == 0) {
                 System.out.println("Cikis");

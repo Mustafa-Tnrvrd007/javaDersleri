@@ -1,7 +1,6 @@
 package java102.P_1_MaceraOyunu.Location;
 
 import java102.P_1_MaceraOyunu.Awards;
-import java102.P_1_MaceraOyunu.Characters.Character;
 import java102.P_1_MaceraOyunu.Characters.Obstacle;
 import java102.P_1_MaceraOyunu.Player;
 
@@ -26,8 +25,7 @@ public abstract class BattleLocation extends Location {
         implementListObstacle(this.listObstacle);
         setObstacle(listObstacle[numberMonster-1]);
 
-//        System.out.println(obstacle.getName() + " listesi eleman sayisi : " + this.listObstacle.length +
-//                "  obstacle number : " + this.numberMonster);
+
 
     }
     public abstract void implementListObstacle(Obstacle[] listObstacle) ;
@@ -39,14 +37,6 @@ public abstract class BattleLocation extends Location {
         return (random.nextInt(max) + 1); // 1 , 2 ,3
     }
 
-
-
-//    public void listeBilgisi(Obstacle[] listObstacle){
-//        for (int i = 0; i < listObstacle.length; i++) {
-//            System.out.println("listenin "+i+". elemanındayız \t" +listObstacle[i].getName()+
-//                    " \t Can : "+listObstacle[i].getHealth());
-//        }
-//    }
 
     @Override
     public boolean onLocation() {
@@ -136,7 +126,6 @@ public abstract class BattleLocation extends Location {
                 }
             }
 
-
             if (getObstacle().getHealth() <= 0) { /// canavarın olme durumu
                 // obsNumber--;
                 this.numberMonster--; // canavar sayisi 1 azaldi
@@ -147,12 +136,8 @@ public abstract class BattleLocation extends Location {
                 lootTaking(); ////// canavar oldurunce ganimet alma durumu
 
                 if (this.numberMonster > 0) { /// canavar sayisi > 0 ise
-//                    System.out.println("Obstacle listesi eleman sayisi : " + this.listObstacle.length +
-//                            "listenin "+this.numberMonster+
-//                            ". elemandayiz \t  obstacle number : " + this.numberMonster);
                     setObstacle(this.listObstacle[this.numberMonster - 1]);
                     System.out.println("\n##################");
-//                    listeBilgisi(this.listObstacle);
 
                 } else {
                     /// tebrikler locationName temizlendi odulu alabilir siniz
@@ -170,11 +155,8 @@ public abstract class BattleLocation extends Location {
             if (!choseFight()) { //Vur veya kac ------------------
                 break;
             }
-
-
         }
         return fight;
-
     }
 
     public void characterAttack() {
@@ -182,7 +164,6 @@ public abstract class BattleLocation extends Location {
         System.out.println("\n" + getPlayer().getCharacter().getName() + " saldiriyor... ");
         kalanCan = getObstacle().getHealth() - characterDamage(getPlayer());
         getObstacle().setHealth(kalanCan);
-//        printObstacleInfoormation(getObstacle());
         getObstacle().printObstacleInfo();
     }
 
@@ -192,7 +173,6 @@ public abstract class BattleLocation extends Location {
         System.out.println("\n" + getObstacle().getName() + " saldiriyor... ");
         kalanCan = getPlayer().getCharacter().getHealth() - monsterDamage(getPlayer(), getObstacle());
         getPlayer().getCharacter().setHealth(kalanCan);
-//        printCharacterInformation(getPlayer().getCharacter(), getPlayer());
         getPlayer().getCharacter().printCharacterInformation(getPlayer().getCharacter(),getPlayer());
     }
 
